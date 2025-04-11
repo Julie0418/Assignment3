@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir flask flask-cors
 
 # Expose port 5000
-EXPOSE 5000
+EXPOSE 8080
 
 # Run the application
 CMD ["python", "app.py"]
